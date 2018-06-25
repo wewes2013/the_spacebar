@@ -11,10 +11,16 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^4.1",
         "symfony/lts": "^4@dev",
+        "symfony/twig-bundle": "^4.1",
         "symfony/yaml": "^4.1"
     },
     "require-dev": {
+        "easycorp/easy-log-handler": "^1.0.2",
+        "symfony/debug-bundle": "^3.3|^4.0",
         "symfony/dotenv": "^4.1",
+        "symfony/monolog-bundle": "^3.0",
+        "symfony/profiler-pack": "^1.0",
+        "symfony/var-dumper": "^3.3|^4.0",
         "symfony/web-server-bundle": "^4.1"
     },
     "config": {

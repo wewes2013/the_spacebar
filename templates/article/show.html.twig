@@ -1,0 +1,29 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Read the {{ title }}{% endblock %}
+
+{% block body %}
+    {{ dump() }}
+    {# comments #}
+    <h1>{{ title }}</h1>
+    <div>
+        <p>
+            YESyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+        </p>
+
+        <p>
+            WEEyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+        </p>
+
+        <p>
+            CVVVyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+        </p>
+    </div>
+
+    <h2>Comments ({{ comments|length }})</h2>
+    <ul>
+        {% for comment in comments %}
+            <li>{{ comment }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
